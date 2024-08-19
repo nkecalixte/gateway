@@ -1,0 +1,99 @@
+:root{
+    --link_color:rgba(221, 133, 17, 0.596);
+    --text_color:  whitesmoke;
+    --background_color:rgb(8, 44, 92);
+    --secondary_color:rgb(74, 178, 219);
+
+}
+html{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height:100vh;
+    background-color: var(--background_color);
+    color: var(--text_color);
+    font-family: 'Poppins',sans-serif;
+}
+
+a{
+    color: var(--link_color);
+    text-decoration: none;
+}
+
+p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.admission_criteria{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.images{
+    flex: 1;
+    background-image: url(./assets/full-shot-friends-eating-outdoors.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 12rem;
+    margin-right: 2rem;
+}
+
+.text{
+    flex: 1;
+}
+
+@media screen and (max-width:400px){
+    html{
+        font-size: 10px;
+    }
+
+    body{
+        width: 100vw;
+        height:100vh;
+        background-color: var(--background_color);
+        color: var(--text_color);
+        font-family: 'Poppins',sans-serif;
+    }
+
+    a{
+        color: var(--link_color);
+        text-decoration: none;
+    }
+
+    p{
+        margin-top: .5rem;
+        font-size: 0.75rem;
+    }
+    
+    .admission_criteria{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .images{
+        flex: 1;
+        background-image: url(./assets/full-shot-friends-eating-outdoors.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin-top: 5rem;
+        margin-right: .5rem;
+    }
+    
+    .text{
+        flex: 1;
+    }
+}

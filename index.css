@@ -1,0 +1,110 @@
+:root{
+    --link_color:rgba(221, 133, 17, 0.596);
+    --text_color:  whitesmoke;
+    --background_color:rgb(8, 44, 92);
+    --secondary_color:rgb(74, 178, 219);
+
+}
+html{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    background-color: rgb(8, 44, 92);
+    color: whitesmoke;
+}
+
+p{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+a{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: var(--link_color);
+    margin-top: 2rem;
+}
+
+li{
+    list-style: none;
+}
+
+.content li a{
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+button{
+    background-color: rgb(74, 178, 219);
+
+}
+button a{
+    color: black;
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: whitesmoke .3rem .3rem .6rem .6rem;
+    color: var(--text_color);
+    rotate: 10deg;
+}
+
+.logo img{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hello{
+    color: rgba(221, 133, 17, 0.596);
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    gap:2rem;
+    height: 80%;
+
+}
+.description{
+    flex: 1;
+    margin-top: 2rem;
+}
+
+.welcome{
+    font-size: 4rem;
+}
+
+.image{
+    background-image: url(./assets/medium-shot-colleagues-posing-together.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 5, 46)  ;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+
+}
+
