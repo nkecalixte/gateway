@@ -1,0 +1,25 @@
+:root{
+    --link_color:rgba(221, 133, 17, 0.596);
+    --text_color:  whitesmoke;
+    --background_color:rgb(8, 44, 92);
+    --secondary_color:rgb(74, 178, 219);
+
+}
+html{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.body{
+    color: var(--text_color);
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    font-size: 2rem;
+    font-family: 'Poppins',sans-serif;
+}
