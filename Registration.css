@@ -15,11 +15,149 @@ html{
     padding: 0;
 }
 
-.body{
+body{
     color: var(--text_color);
     width: 100vw;
     height: 100vh;
-    background-color: blue;
+    background-color: var(--background_color);
     font-size: 2rem;
     font-family: 'Poppins',sans-serif;
+}
+
+.register{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.form{
+    flex: 1;
+}
+
+label p{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+input{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    height: 3rem;
+    width: 35rem;
+    border: solid 3px var(--secondary_color);
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+.input input{
+    width: 5rem;   
+}
+
+.submit{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    gap: 5rem;
+}
+
+.submit input{
+    cursor: pointer;
+    width: 12rem;
+    text-align: center;
+    padding-right: 1.5rem;
+    font-weight: bold;
+    background-color: var(--secondary_color);
+}
+
+.submit input:hover{
+    cursor: pointer;
+    width: 12rem;
+    text-align: center;
+    padding-right: 1.5rem;
+    font-weight: bold;
+    background-color: var(--secondary_color);
+    transform: scale(1.1);
+    box-shadow: var(--text_color);
+}
+
+.img{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.photo1{
+    flex: 1;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.photo11{
+    flex: 1;
+    background-image: url(./assets/pretty-black-girl-posing-with-notepads.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+
+.photo12{
+    flex: 1;
+    background-image: url(./assets/full-shot-friends-eating-outdoors.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5rem;
+}
+
+.photo2{
+    flex: 1;
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.photo21{
+    flex: 1;
+    background-image: url(./assets/group-five-african-college-students-spending-time-together-campus-university-yard-black-afro-friends-sitting-grass-studying-with-laptops.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 3rem;
+}
+
+.photo22{
+    flex: 1;
+    background-image: url(./assets/friends.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 3rem;
+}
+
+.photo23{
+    flex: 1;
+    background-image: url(./assets/student_reading.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 3rem;
+}
+
+.photo3{
+    flex: 1;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.photo31{
+    flex: 1;
+    background-image: url(./assets/bottom-view-kids-getting-ready-new-football-match.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.photo32{
+    flex: 1;
+    background-image: url(./assets/graduating_student.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }

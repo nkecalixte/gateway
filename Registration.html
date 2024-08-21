@@ -8,42 +8,84 @@
 </head>
 <body>
     <center><h1>Registration Form</h1></center>
-    <form action="mailto:nkecalixte21@gmail.com">
-        <label for="name">
-            <p>Name:</p>
-            <input type="text" maxlength="40" size="20">
-        </label>
-        <label for="Surname">
-            <p>Surname:</p>
-            <input type="text" maxlength="60" size="20">
-        </label>
-        <label for="email">
-            <p>Name:</p>
-            <input type="email" size="20" placeholder="Mary@gmail.com">
-        </label>
-        <label for="certificate">
-            <p>Highest Certificate:</p>
-            <input type="text" maxlength="80" size="20">
-        </label>
-        <label for="Level">
-            <p>Level:</p>
-            <input type="text" maxlength="40" size="20">
-        </label>
-        <label for="Language">
-            <p>Language(s):</p>
-            <select name="language(s)" id="lang">
-                <option value="">English(UK)</option>
-                <option value="">English(US)</option>
-                <option value="">French</option>
-                <option value="">Portuguese</option>
-                <option value="">Spanish</option>
-                <option value="">Mongolian</option>
-                <option value="">German</option>
-                <option value="">Latin</option>
-                <option value="">Greek</option>
-                <option value="">Arabic</option>
-            </select>
-        </label>
-    </form>
+    <center><img src="./assets/University Logo.png" alt="gateway logo" height="100px" style="margin-top: 2rem;"></center>
+    <div class="register">
+        <div class="form">
+            <form action="mailto:nkecalixte21@gmail.com" style="margin-top: 3rem; margin-left:10rem;">
+                <label for="name">
+                    <p>Name:</p>
+                    <input type="text" maxlength="40" size="20">
+                </label>
+                <label for="Surname">
+                    <p>Surname:</p>
+                    <input type="text" maxlength="60" size="20">
+                </label>
+                <label for="email">
+                    <p>E-mail:</p>
+                    <input type="email" size="20" placeholder="e.g.: GatewayUniversity@gmail.com">
+                </label>
+                <label for="certificate">
+                    <p>Highest Certificate:</p>
+                    <input type="text" maxlength="80" size="20">
+                </label>
+                <label for="Faculty">
+                    <p>Faculty:</p>
+                    <select name="language(s)" id="lang" style="width: 37rem; height:3rem; margin-left:2rem; font-size:2rem; padding-left:2rem; margin-top:1rem;">
+                        <option>Faculty Of Science</option>
+                        <option>Faculty Of Arts</option>
+                        <option>French</option>
+                        <option>Portuguese</option>
+                        <option>Spanish</option>
+                        <option>Mongolian</option>
+                        <option>German</option>
+                        <option >Latin</option>
+                        <option>Greek</option>
+                        <option>Arabic</option>
+                    </select>
+                    
+                </label>
+        
+                <label for="Level">
+                    <p>Level:</p>
+                    <input type="text" maxlength="40" size="20">
+                </label>
+                <label for="Student Status">
+                    <p>Student Status:</p>
+                    <input type="radio" maxlength="40" size="20" style="width: 2rem;">Repeating
+                    <input type="radio" maxlength="40" size="20" style="width: 2rem;">Not Repeating
+                    <input type="radio" maxlength="40" size="20" style="width: 2rem;">New Student
+                </label>
+                    <p style="font-weight: bold;">Language(s):</p>
+                    <div class="input">
+                        <input type="checkbox">English
+                        <input type="checkbox">French <br>
+                        <input type="checkbox">Spanish
+                        <input type="checkbox">Chinese<br>
+                        <input type="checkbox">Portuguese
+                        <input type="checkbox">German<br>
+                        <input type="checkbox">Arabic <br>
+                    </div>
+                    <div class="submit">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    </div>
+            </form>
+        </div>
+        <div class="img">
+            <div class="photo1">
+                <div class="photo11"></div>
+                <div class="photo12"></div>
+            </div>
+            <div class="photo2">
+                <div class="photo21"></div>
+                <div class="photo22"></div>
+                <div class="photo23"></div>
+            </div>
+            <div class="photo3">
+                <div class="photo31"></div>
+                <div class="photo32"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
