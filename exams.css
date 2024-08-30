@@ -70,6 +70,46 @@ th{
     border: solid 1px var(--secondary_color); 
 }
 
+.class{
+    width: 100%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+.pic1{
+    background-image: url(./assets/medium-shot-colleagues-posing-together.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic2{
+    background-image: url(./assets/graduating_student.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic3{
+    background-image: url(./assets/graduating_students.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic4{
+    background-image: url(./assets/student_with_books.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic5{
+    background-image: url(./assets/diplomas.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .ref{
     width: 100%;
     height: 100%;
