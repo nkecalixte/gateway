@@ -23,6 +23,20 @@ body{
     color: whitesmoke;
 }
 
+a{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: var(--link_color);
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+p{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
 .school{
     width: 100%;
     height: 100%;
@@ -38,4 +52,41 @@ body{
 
 .text{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.gate{
+    width: 100%;
+    height: 100%;
+}
+
+.ref{
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 5, 46)  ;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+
+}
+
+.footer li{
+    list-style: none;
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+
+.content li a{
+    text-decoration: none;
 }
